@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pokemon</title>
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="logo">
+<img src="images/PokemonLogo.png">
+</div>
+
+<div class="professorOak">
+	<img class="pOak clickable" src="images/ProfessorOak.png">
+	<div class="hiddenSettings hide">
+		<h2>Professor Oak's Lab Settings</h2>
+		<ul>
+			<li>
+				<button class="clickable" id="catchMore">Catch Another!</button>
+			</li>
+			<li>
+				<img id="day" class="clickable" src="images/sun.png">
+				<img id = "night" class="clickable" src="images/moon.png">
+			</li>
+			<li>
+				<img id="rain" class="clickable" src="images/rain.png">
+				<img id="fire" class="clickable" src="images/fire.png">
+				<img id="snow" class="clickable" src="images/snow.png">
+				<img id="grass" class="clickable" src="images/grass.png">
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div class="wildPokemon">
+	<div class="gameboy">
+		<img src="images/gameboy.svg">
+		<div class="screen">
+			<img class="wildGrass" id="wildGrass" src="images/grass.png">
+			<p id="wildText">A Wild Pokemon Appeared!</p>
+		</div>
+		<div class="AButton clickable"></div>
+		<div class="BButton clickable"></div>
+</div>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>

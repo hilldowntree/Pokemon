@@ -1,0 +1,129 @@
+body {
+	background-color: grey;
+	font-family: 'Open Sans', sans-serif;
+	color: #0F007E;
+}
+
+p {
+	font-family: 'Bangers', cursive;
+	font-size:30px;
+	color:black;
+}
+
+ul {
+	list-style: none
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.professorOak {
+	position:absolute;
+	top:15px;
+	right:10px;
+	width:500px;
+	z-index:5;
+}
+
+.pOak {
+	float:right;
+}
+
+.hiddenSettings{
+	background-color: darkgrey;
+	padding:10px 0 5px 5px;
+}
+
+.hiddenSettings button{
+	width:250px;
+	height:50px;
+	font-size: 20px;
+	background-color: #DC1F40;
+	margin-bottom: 50px;
+}
+
+.hiddenSettings img{
+	width:100px;
+	padding:5px;
+	margin-bottom: 50px;
+}
+
+.hide {
+	display: none
+}
+
+.wildPokemon {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.wildGrass {
+	max-height:300px;
+	width:100%;
+}
+
+.gameboy {
+	position: relative;
+}
+
+.gameboy img{
+	width:700px;
+}
+
+.screen img{
+	position: absolute;
+	width:300px;
+	bottom:723px;
+	left:200px;
+}
+
+.screen p{
+	position:absolute;
+	width:395px; 
+	top:100px;
+	left:150px;
+	text-align: center;
+}
+
+.AButton {
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:700px;
+	right:50px;
+}
+
+.BButton{
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:745px;
+	right:180px;
+}
+
+@keyframes shake {
+  from, to {
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.shake {
+  animation:shake 1s linear;
+}
